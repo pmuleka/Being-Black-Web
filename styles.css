@@ -25,3 +25,8 @@ img {
     margin-top: 20px;
     border: 3px solid burlywood; /* nude-toned border */
 }
+.small-text {
+    font-size: 12px;
+    color: saddlebrown; /* matches your theme */
+    margin-left: 4px;
+}
