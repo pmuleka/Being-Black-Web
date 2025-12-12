@@ -1,62 +1,83 @@
 body {
-    font-family: Georgia, serif; /* newspaper-style font */
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: linen; /* soft nude */
+    color: sienna; /* warm brown */
     margin: 0;
     padding: 20px;
-    background-color: linen; /* nude background */
-    color: saddleBrown; /* warm brown text */
-    line-height: 1.6;
 }
 
-/* Newspaper-style content box */
+/* Journal-style wrapper */
 .page-box {
-    background-color: seashell; /* soft nude tone */
-    padding: 20px;
-    border: 1px solid burlywood; /* light brown border */
+    background-color: seashell; /* soft pinkish nude */
     max-width: 900px;
     margin: auto;
+    padding: 25px;
+    border: 2px dashed burlywood; /* journal notebook border */
+    border-radius: 12px;
 }
 
-/* Title style */
-h1 {
-    color: saddleBrown;
-    text-align: center;
-    border-bottom: 2px solid burlywood; /* newspaper divider */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+/* Handwritten title */
+.journal-title {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px rosybrown; /* soft shadow */
+    margin: 0;
 }
 
-/* Section headings */
-h2, h3 {
-    color: sienna;
+/* Subtitle under title */
+.journal-subtitle {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 22px;
+    color: floralwhite;
+    margin-top: -8px;
 }
 
-/* Navigation style */
+/* Banner header */
+.title-banner {
+    background-image: url("Bannier image(BB).webp");
+    background-position: center;
+    background-size: cover;
+    padding: 70px 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* Navigation tabs */
 nav {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 15px 0 20px 0;
 }
 
 nav a {
-    margin: 0 10px;
-    color: saddleBrown;
+    margin: 0 12px;
     text-decoration: none;
     font-weight: bold;
+    color: saddlebrown;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: peru;
 }
 
-/* Images framed like magazine cutouts */
+/* Big journal letter */
+.big-letter {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Brush Script MT", cursive;
+    color: rosybrown;
+}
+
+/* Cursive notes */
+.cursive {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    color: sienna;
+}
+
+/* Image styled like a scrapbook photo */
 img {
     width: 100%;
-    height: auto;
-    border: 3px solid burlywood;
+    border-radius: 10px;
+    border: 3px solid wheat;
     margin-top: 20px;
-}
-
-/* Small text for (Being Black) */
-.small-text {
-    font-size: 12px;
-    color: peru;
 }
