@@ -1,17 +1,15 @@
-/* ==== GENERAL PAGE COLORS (WARM NUDE TONES) ==== */
-
+/* ==== GENERAL PAGE COLORS ==== */
 body {
     margin: 0;
     padding: 0;
     background-color: #F3DCCB; /* soft warm nude */
     font-family: Arial, sans-serif;
-    color: #4A2E1A; /* deep cocoa brown */
+    color: #4A2E1A; /* cocoa brown */
 }
 
-/* ==== TOP NAV BAR ==== */
-
+/* ==== NAVIGATION BAR ==== */
 .top-nav {
-    background-color: #D8B59A; /* caramel nude */
+    background-color: #D8B59A;
     padding: 15px 0;
     text-align: center;
 }
@@ -24,22 +22,21 @@ body {
 }
 
 .top-nav a:hover {
-    color: #8B5E3C; /* warm brown */
+    color: #8B5E3C;
 }
 
-/* ==== TITLE BANNER SECTION ==== */
-
+/* ==== BANNER ==== */
 .hero {
     background-image: url("Black women trio.jpg");
     background-size: cover;
     background-position: center;
-    padding: 80px 20px;
+    padding: 90px 20px;
     text-align: center;
     color: #4A2E1A;
 }
 
 .banner-overlay {
-    background-color: rgba(255, 240, 230, 0.5); /* light nude tint */
+    background-color: rgba(255, 240, 230, 0.5);
     padding: 40px;
     border-radius: 15px;
     display: inline-block;
@@ -49,25 +46,20 @@ body {
     font-family: "Brush Script MT", cursive;
     font-size: 90px;
     margin: 0;
-    color: #4A2E1A;
 }
 
 .subtitle {
     font-family: "Brush Script MT", cursive;
-    font-size: 28px;
+    font-size: 26px;
     color: #8B5E3C;
-    margin: -10px 0 5px 0;
 }
 
 .tagline {
     font-family: "Brush Script MT", cursive;
     font-size: 26px;
-    color: #5A3E2B;
-    margin-top: 5px;
 }
 
-/* ==== WELCOME SECTION LAYOUT ==== */
-
+/* ==== WELCOME SECTION ==== */
 .welcome-area {
     padding: 40px 20px;
 }
@@ -80,19 +72,17 @@ body {
     margin: auto;
 }
 
-/* Makeup brush icon */
+/* Left makeup brush icon */
 .left-icon {
     width: 130px;
-    height: auto;
     opacity: 0.9;
 }
 
-/* Illustration of Black women */
+/* Right image */
 .right-image {
     width: 260px;
-    height: auto;
     border-radius: 10px;
-    border: 3px solid #D8B59A; /* warm nude frame */
+    border: 3px solid #D8B59A;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.15);
 }
 
@@ -105,7 +95,6 @@ body {
 
 .section-title {
     font-size: 34px;
-    color: #4A2E1A;
 }
 
 .big-letter {
@@ -125,7 +114,5 @@ body {
 
 .small-text {
     font-size: 18px;
-    color: #4A2E1A;
     font-family: "Brush Script MT", cursive;
 }
-
