@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: linen; /* soft nude background */
+}
+
+h1 {
+    color: saddleBrown; /* deep brown, melanin tone */
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: saddleBrown; /* deep brown for links */
+}
+
+nav a:hover {
+    color: peru; /* warm brown hover color */
+}
+
+img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid burlywood; /* nude-toned border */
+}
