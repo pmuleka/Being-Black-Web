@@ -1,83 +1,131 @@
+/* ==== GENERAL PAGE COLORS (WARM NUDE TONES) ==== */
+
 body {
-    font-family: "Trebuchet MS", sans-serif;
-    background-color: linen; /* soft nude */
-    color: sienna; /* warm brown */
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: #F3DCCB; /* soft warm nude */
+    font-family: Arial, sans-serif;
+    color: #4A2E1A; /* deep cocoa brown */
 }
 
-/* Journal-style wrapper */
-.page-box {
-    background-color: seashell; /* soft pinkish nude */
-    max-width: 900px;
-    margin: auto;
-    padding: 25px;
-    border: 2px dashed burlywood; /* journal notebook border */
-    border-radius: 12px;
-}
+/* ==== TOP NAV BAR ==== */
 
-/* Handwritten title */
-.journal-title {
-    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
-    font-size: 50px;
-    color: white;
-    text-shadow: 2px 2px rosybrown; /* soft shadow */
-    margin: 0;
-}
-
-/* Subtitle under title */
-.journal-subtitle {
-    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
-    font-size: 22px;
-    color: floralwhite;
-    margin-top: -8px;
-}
-
-/* Banner header */
-.title-banner {
-    background-image: url("Bannier image(BB).webp");
-    background-position: center;
-    background-size: cover;
-    padding: 70px 20px;
-    border-radius: 12px;
-    margin-bottom: 25px;
-}
-
-/* Navigation tabs */
-nav {
+.top-nav {
+    background-color: #D8B59A; /* caramel nude */
+    padding: 15px 0;
     text-align: center;
-    margin: 15px 0 20px 0;
 }
 
-nav a {
-    margin: 0 12px;
+.top-nav a {
+    margin: 0 20px;
     text-decoration: none;
+    color: #4A2E1A;
     font-weight: bold;
-    color: saddlebrown;
 }
 
-nav a:hover {
-    color: peru;
+.top-nav a:hover {
+    color: #8B5E3C; /* warm brown */
 }
 
-/* Big journal letter */
-.big-letter {
-    font-size: 48px;
-    font-weight: bold;
+/* ==== TITLE BANNER SECTION ==== */
+
+.hero {
+    background-image: url("Black women trio.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: #4A2E1A;
+}
+
+.banner-overlay {
+    background-color: rgba(255, 240, 230, 0.5); /* light nude tint */
+    padding: 40px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.main-title {
     font-family: "Brush Script MT", cursive;
-    color: rosybrown;
+    font-size: 90px;
+    margin: 0;
+    color: #4A2E1A;
 }
 
-/* Cursive notes */
-.cursive {
-    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
-    color: sienna;
+.subtitle {
+    font-family: "Brush Script MT", cursive;
+    font-size: 28px;
+    color: #8B5E3C;
+    margin: -10px 0 5px 0;
 }
 
-/* Image styled like a scrapbook photo */
-img {
-    width: 100%;
+.tagline {
+    font-family: "Brush Script MT", cursive;
+    font-size: 26px;
+    color: #5A3E2B;
+    margin-top: 5px;
+}
+
+/* ==== WELCOME SECTION LAYOUT ==== */
+
+.welcome-area {
+    padding: 40px 20px;
+}
+
+.welcome-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Makeup brush icon */
+.left-icon {
+    width: 130px;
+    height: auto;
+    opacity: 0.9;
+}
+
+/* Illustration of Black women */
+.right-image {
+    width: 260px;
+    height: auto;
     border-radius: 10px;
-    border: 3px solid wheat;
-    margin-top: 20px;
+    border: 3px solid #D8B59A; /* warm nude frame */
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.15);
 }
+
+/* Center text */
+.center-text {
+    flex: 1;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.section-title {
+    font-size: 34px;
+    color: #4A2E1A;
+}
+
+.big-letter {
+    font-family: "Brush Script MT", cursive;
+    font-size: 65px;
+    color: #8B5E3C;
+}
+
+.section-text {
+    max-width: 700px;
+    margin: auto;
+    font-family: "Brush Script MT", cursive;
+    font-size: 24px;
+    color: #5A3E2B;
+    line-height: 1.5;
+}
+
+.small-text {
+    font-size: 18px;
+    color: #4A2E1A;
+    font-family: "Brush Script MT", cursive;
+}
+
