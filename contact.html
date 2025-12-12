@@ -8,41 +8,36 @@
 
 <body>
 
-<div class="page-box">
+<header class="top-nav">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
 
-<div class="title-banner">
-    <h1 class="journal-title">Contact <span class="small-text">(Being Black)</span></h1>
-    <p class="journal-subtitle">send me a little note</p>
-</div>
+<section class="simple-page">
+    <h1 class="page-title">Contact</h1>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
+    <p class="section-text">
+        You can send me a small message using this form.  
+        Or email me at <strong>bbbeauty@example.com</strong>.
+    </p>
 
-<h2><span class="big-letter">G</span>et in Touch</h2>
+    <form>
+        <label class="section-text">Name:</label><br>
+        <input type="text" class="form-box"><br><br>
 
-<p class="cursive">
-    You can send me a small message using the form below.  
-    Or email me at: <strong>bbbeauty@example.com</strong>
-</p>
+        <label class="section-text">Email:</label><br>
+        <input type="email" class="form-box"><br><br>
 
-<form>
-    <label class="cursive">Your Name:</label><br>
-    <input type="text" style="width: 100%; padding: 6px;"><br><br>
+        <label class="section-text">Message:</label><br>
+        <textarea class="form-box" style="height:120px;"></textarea><br><br>
 
-    <label class="cursive">Your Email:</label><br>
-    <input type="email" style="width: 100%; padding: 6px;"><br><br>
-
-    <label class="cursive">Your Message:</label><br>
-    <textarea style="width: 100%; height: 120px; padding: 6px;"></textarea><br><br>
-
-    <button type="submit" style="padding: 8px 15px;">Send</button>
-</form>
-
-</div>
+        <button type="submit" class="submit-btn">Send</button>
+    </form>
+</section>
 
 </body>
 </html>
